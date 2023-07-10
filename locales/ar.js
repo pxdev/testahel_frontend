@@ -1,0 +1,18 @@
+export default {
+    "Home": 'الرئيسية',
+    "Auctions": 'المزادات',
+    "FAQ": 'الأسئلة الشائعة',
+    "Testahel Platform": 'منصة تستاهل',
+    "For Online RealEstate Auctions": 'للمزادات العقارية الإلكترونية',
+    "Explore Auctions": 'تصفح المزادات',
+    "New Membership": 'تسجيل عضوية',
+    "Account Login": 'تسجيل الدخول',
+    "Contact us": 'إتصل بنا',
+    "Day": 'يوم',
+    "Hour": 'ساعة',
+    "Minute": 'دقيقة',
+    "Partners": 'شركاؤنا',
+    "Download Our App Now": 'حمل التطبيق الان',
+    "Download the app and bid from your mobile": 'حمل تطبيق تستاهل وشارك فى المزادات من جوالك',
+    "All Rights Reserved": 'جميع الحقوق محفوظة',
+ }
