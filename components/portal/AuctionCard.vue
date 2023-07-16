@@ -14,7 +14,7 @@
 
             <div class="absolute -top-14 left-3 z-20 ">
                 <client-only>
-                    <vue-countdown :time="2 * 24 * 60 * 60 * 1000" :interval="100" v-slot="{ days, hours, minutes }">
+                    <vue-countdown :time="2 * 24 * 60 * 60 * 1000" :interval="100" v-slot="{ days, hours, minutes, seconds }">
                         <div class="flex gap-1">
                             <div class="bg-white rounded text-center p-2 shadow">
                                 <base-heading as="h6">{{ days }}</base-heading>
@@ -29,6 +29,10 @@
                             <div class="bg-white rounded text-center p-2 shadow">
                                 <base-heading as="h6">{{ minutes }}</base-heading>
                                 <p class="text-[11px] opacity-60">{{ $t('Minute') }}</p>
+                            </div>
+                            <div class="bg-white rounded text-center p-2 shadow">
+                                <base-heading as="h6">{{ seconds }}</base-heading>
+                                <p class="text-[11px] opacity-60">{{ $t('Seconds') }}</p>
                             </div>
                         </div>
                     </vue-countdown>

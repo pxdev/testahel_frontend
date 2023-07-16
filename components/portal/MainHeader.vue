@@ -53,7 +53,7 @@
             <div class='hidden lg:flex lg:flex-1 lg:justify-end'>
                 <div class='flex gap-5 items-center'>
                     <language-switcher></language-switcher>
-                    <base-button @click="navigateTo(localePath('/login'))"  size="lg" icon="ri-user-line text-lg" intent="primary">{{$t('Account Login')}}</base-button>
+                    <base-button @click="navigateTo(localePath('/users/login'))"  size="lg" icon="ri-user-line text-lg" intent="primary">{{$t('Account Login')}}</base-button>
                 </div>
             </div>
         </nav>

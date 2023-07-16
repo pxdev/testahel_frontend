@@ -11,8 +11,15 @@ export default {
     "Day": 'يوم',
     "Hour": 'ساعة',
     "Minute": 'دقيقة',
+    "Seconds": 'ثوانى',
     "Partners": 'شركاؤنا',
     "Download Our App Now": 'حمل التطبيق الان',
     "Download the app and bid from your mobile": 'حمل تطبيق تستاهل وشارك فى المزادات من جوالك',
     "All Rights Reserved": 'جميع الحقوق محفوظة',
- }
+    "Login": ' تسجيل الدخول',
+    "Welcome to": ' مرحبا بك في ',
+    "Username": 'إسم المستخدم',
+    "Password": 'كلمة المرور',
+    "Forgot your password?": 'هل نسيت كلمة المرور؟',
+
+}
