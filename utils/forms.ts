@@ -82,10 +82,9 @@ useCommon.formInput = () => (
   {
     wrapper: 'relative',
     base: 'relative bg-white transition block border border-gray-200 w-full disabled:cursor-not-allowed disabled:opacity-75 rounded-md',
-    placeholder: 'placeholder-gray-400 dark:text-gray-100',
+    placeholder: 'placeholder-gray-400',
     focus: 'focus:outline-none focus:ring-0 focus:border-gray-300 focus:bg-gray-50/10',
     hover: 'hover:border-gray-200',
-    dark: 'dark:bg-white/10 dark:border-gray-200/10 dark:text-gray-50',
     preIcon: 'ltr:pl-9 rtl:pr-9',
     postIcon: 'ltr:pr-9 rtl:pl-9',
     size: {

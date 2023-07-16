@@ -1,7 +1,7 @@
 <template>
     <div class='border p-3 bg-white border-gray-200 rounded-lg transition hover:ring hover:ring-1 ring-pink-900'>
         <div class='relative isolate overflow-hidden bg-secondary h-[250px] mb-6'>
-            <div class= "bg-white absolute flex items-center gap-1 top-2 right-2 rounded z-10 text-[10px]">
+            <div class= "bg-white absolute flex items-center px-2 gap-1 top-2 right-2 rounded z-10 text-[10px]">
                 <i class="ri-calendar-event-line text-lg"></i>
                 {{ props.date }}
             </div>

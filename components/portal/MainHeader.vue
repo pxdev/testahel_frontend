@@ -53,7 +53,7 @@
             <div class='hidden lg:flex lg:flex-1 lg:justify-end'>
                 <div class='flex gap-5 items-center'>
                     <language-switcher></language-switcher>
-                    <base-button size="lg" icon="ri-user-line text-lg" intent="primary">{{$t('Account Login')}}</base-button>
+                    <base-button @click="navigateTo(localePath('/login'))"  size="lg" icon="ri-user-line text-lg" intent="primary">{{$t('Account Login')}}</base-button>
                 </div>
             </div>
         </nav>
@@ -62,9 +62,12 @@
 </template>
 
 <script setup>
+
 import { ref } from 'vue'
 import { Dialog, DialogPanel} from '@headlessui/vue'
 import LanguageSwitcher from "~/components/portal/LanguageSwitcher.vue";
 const mobileMenuOpen = ref(false)
+const localePath = useLocalePath()
+
 
 </script>
