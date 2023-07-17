@@ -45,7 +45,7 @@
                 </button>
             </div>
             <div class='hidden lg:flex '>
-                <menu-item class='block px-4 py-2' :title="$t('Home')"  link='/'></menu-item>
+                 <menu-item class='block px-4 py-2' :title="$t('Home')"  link='/'></menu-item>
                 <menu-item class='block px-4 py-2' :title="$t('Auctions')"  link='/auctions'></menu-item>
                 <menu-item class='block px-4 py-2' :title="$t('FAQ')"  link='/faq'></menu-item>
                 <menu-item class='block px-4 py-2' :title="$t('Contact us')"  link='/contact'></menu-item>

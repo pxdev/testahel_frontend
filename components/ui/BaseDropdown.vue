@@ -26,7 +26,7 @@
           v-slot="{ active }"
           v-for="(option, index) in props.options"
           :key="index + 'dropdown-option'">
-          <a href="#" class="flex p-3 text-sm" @click="selectOption(option)" :class="{ 'bg-neutral-900 text-white': active }" >{{ option.name }}</a>
+          <a href="#" class="flex p-3 text-sm" @click="selectOption(option)" :class="{ 'bg-pink-900/10 text-pink-900': active }" >{{ option.name }}</a>
         </MenuItem>
       </MenuItems>
     </transition>

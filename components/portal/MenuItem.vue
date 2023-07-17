@@ -1,5 +1,5 @@
 <template>
-   <nuxt-link :to='localePath(link)' exact-active-class="text-primary" active-class="" class="text-secondary hover:text-primary  transition ease-in-out "  >
+   <nuxt-link :to='localePath(link)'  active-class="text-pink-700" class="text-secondary hover:text-primary  transition ease-in-out"  >
     {{ props.title }}
   </nuxt-link>
 
