@@ -49,11 +49,9 @@
   const inputClass = computed(() => {
     let classList = [
       fromInputClasses.base,
-      fromInputClasses.dark,
-      fromInputClasses.focus,
+       fromInputClasses.focus,
       fromInputClasses.hover,
-      fromInputClasses.rounded,
-      fromInputClasses.placeholder
+       fromInputClasses.placeholder
     ]
     props.size && classList.push(fromInputClasses.size[props.size])
     props.preIcon && classList.push(fromInputClasses.preIcon)

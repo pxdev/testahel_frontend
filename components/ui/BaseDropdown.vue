@@ -1,5 +1,10 @@
 <template>
-  <Menu as="div" class="relative mb-5">
+    <div>
+    <form-label class="block" v-if='props.label' :required='props.required'>{{ $t(props.label)}}</form-label>
+
+
+
+    <Menu as="div" class="relative mb-5">
     <MenuButton :class="[buttonClass, { 'ltr:pl-9 rtl:pr-9' : props.preIcon },{ 'ltr:pr-9 rtl:pl-9' : props.postIcon }  ]" v-slot="open">
       {{ selectedOption ? selectedOption : props.placeholder }}
       <span class="flex absolute inset-y-0 right-0 items-center pr-2 pointer-events-none">
@@ -26,8 +31,7 @@
       </MenuItems>
     </transition>
   </Menu>
-  <Validation :validation="validations" v-if="validations" />
-
+   </div>
 </template>
 
 <script setup>

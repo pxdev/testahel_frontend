@@ -19,7 +19,7 @@
 
                                 <div class="flex items-center justify-between">
                                     <a href="#" class="font-medium ">{{ $t('Forgot your password?') }}</a>
-                                    <base-button intent="primary" class="px-10" size="lg">{{ $t('Login') }}
+                                    <base-button @click="navigateTo(localePath('/users/profile'))" intent="primary" class="px-10" size="lg">{{ $t('Login') }}
                                     </base-button>
                                 </div>
 

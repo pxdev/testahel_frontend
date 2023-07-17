@@ -1,5 +1,5 @@
 <template>
-    <Html :lang="head.htmlAttrs.lang" dir='rtl'>
+    <Html :lang="head.htmlAttrs.lang" :dir='localeProperties.dir' class="h-full">
     <Body class="bg-gray-100">
     <main-header></main-header>
     <slot/>
